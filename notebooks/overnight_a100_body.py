@@ -16,8 +16,8 @@ from torch import nn
 from tqdm import tqdm
 
 # Overnight experiment:
-#   Fresh A100 run on a larger stratified MAESTRO subset. This does not tune
-#   seeded settings; it stress-tests the already-positive seeded-refinement
+#   Fresh A100 run on a larger stratified MAESTRO subset. This doesn't tune
+#   seeded settings. It stress-tests the already-positive seeded-refinement
 #   result with more pieces, more steps, GPU-resident training caches, fused
 #   AdamW, and optional torch.compile.
 #
