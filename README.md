@@ -1,4 +1,4 @@
-# Frozen-Prior ControlNet AMT POC
+# Seeded Diffusion Refinement for Image-to-Image Piano Transcription
 
 This repo is a runnable scaffold for a small-budget test of whether a frozen
 MIDI-only diffusion prior can help piano audio-to-MIDI transcription on a tiny
@@ -44,3 +44,4 @@ For GPU work, use `notebooks/colab_poc.py` as a copy-pasteable Colab driver.
 - Compare ControlNet-prior against the local supervised baseline, not against
   published AMT systems unless those are actually run under comparable settings.
 
+* This README was written with the help of Claude Code. *
