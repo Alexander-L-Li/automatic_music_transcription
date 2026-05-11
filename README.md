@@ -43,5 +43,5 @@ For GPU work, use `notebooks/colab_poc.py` as a copy-pasteable Colab driver.
 - Stop early if data alignment or one-clip overfit fails.
 - Compare ControlNet-prior against the local supervised baseline, not against
   published AMT systems unless those are actually run under comparable settings.
-
-* This README was written with the help of Claude Code. *
+  
+AI Usage Statement: This README was written with the help of Claude Code.
